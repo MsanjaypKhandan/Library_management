@@ -10,7 +10,7 @@ const db = mysql.createConnection({
     password:"DdJ67CCwhM",
     database:"sql6685679",
     connectTimeout: 15000, // Adjust this value as needed
-    acquireTimeout: 15000,
+    
 })
 
 app.get("/books",(req,res) => {
